@@ -94,55 +94,50 @@ header nav a {
     text-align: center;
 }
 
-#timer {
-    font-size: 80px;
-    font-weight: 600;
+#login  {
+    font-size: 20px;
     color: #ffffff;
-    padding-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
     margin-top: 80px;
 }
 
-
-#botao-timer {
+#password  {
+    font-size: 20px;
+    color: #5f028a;
+    padding: 10px;
     border-radius: 10px;
-    padding: 30px 60px 30px 60px;
     border: none;
-    font-size: 30px;
-    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+#botao-login {
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 90px 10px 90px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
     color: #383838;
     cursor: pointer;
-    margin-bottom: 150px;
-    box-shadow: #4a006d 2px 2px 1px 1px;
+    margin-bottom: 20px;
 
 }
 
-#botao-timer:hover {
+#botao-login:hover {
     color: #ffffff;
     background-color: #5f028a;
     transition: 0.5s ease-in;
 
 }
 
-.tasks{
-    background-color: #8e00cf;
-    margin-top: 30px;
-    border-radius: 10px;
-    display: grid;
-    place-items: center;
-    text-align: center;
-}
-
-.tasks h1{
+.container p{
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
-#digite-task{
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-bottom: 10px;
+#cadastrese{
+    color: #ffc400;
 }

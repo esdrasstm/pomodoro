@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Pomodoro</title>
+    <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="/fontawesome-free-6.5.2-web/css/all.min.css">
 </head>
+
 <body>
     <main>
         <div id="interface">
@@ -16,31 +17,27 @@
                     <nav>
                         <a id="logo" href="index.html">
                             Pomodoro
-                        </a>        
+                        </a>
                         <a id="social-link1" href="https://github.com/esdrasstm" target="_blank">
                             <i class="fa-brands fa-github"></i>
                         </a>
-            
+
                         <a id="social-link2" href="https://www.instagram.com/esdrasstm/" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-            
+
                         <a class="login" href="login.html" target="_blank">Login</a>
                     </nav>
                 </header>
-            </div>
         </div>
 
         <div class="container">
-            <p id="timer">25:00</p>
-            <button id="botao-timer">INICIAR</button>
+            <input type="email" name="login" id="login" placeholder="Digite seu e-mail">
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+            <button id="botao-login">Login</button>
+            <p>Não tem uma conta? <a id="cadastrese" href="#">Cadastre-se</a></p>
         </div>
-
-        <div class="tasks">
-            <h1>Minhas tasks</h1>
-
-            <input type="text" id="digite-task" placeholder="Digite aqui a task de hoje :)">
-        </div>
+    </div>
     </main>
 
 </body>
