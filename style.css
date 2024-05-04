@@ -8,7 +8,7 @@
 
 body{
     font-family: "Poppins" ,sans-serif;
-    background-color: #e46262;
+    background-color: #ffc400;
     display: flex;
     justify-content: center;
     min-width: 100vh;
@@ -19,28 +19,67 @@ main{
     text-align: center;
 }
 
-#header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     max-width: 1200px;
-    background-color: #fff;
+    background-color: #8e00cf;
+    border-radius: 0 0 10px 10px;
 }
 
-#header nav a{
+header nav a {
     text-decoration: none;
     padding: 10px;
-    align-items: center;
+    justify-content: center;
+    width: 30px;
     
 }
 
-.login{
-    background-color: rgb(124, 124, 124);
-    border-radius: 10px;
-    color: #d9d9d9;
-    font-family: "poppins";
-    font-weight: 500;
-    text-transform: uppercase;
+#logo{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
 }
+
+#social-link1{
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+#social-link2{
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+}
+
+#social-link1:hover{
+    color: #979797;
+    transition: 0.5s ease-in;
+}
+
+#social-link2:hover{
+    color: #979797;
+    transition: 0.5s ease-in;
+}
+
+.login{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: #8e00cf;
+    font-family: "poppins";
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.login:hover{
+    color: #979797;
+    transition: 0.5s ease-in;
+}
+
