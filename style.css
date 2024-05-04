@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Poppins" ,sans-serif;
+body {
+    font-family: "Poppins", sans-serif;
     background-color: #ffc400;
     display: flex;
     justify-content: center;
@@ -15,11 +15,11 @@ body{
     margin: 0;
 }
 
-main{
+main {
     text-align: center;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,16 +35,16 @@ header nav a {
     padding: 10px;
     justify-content: center;
     width: 30px;
-    
+
 }
 
-#logo{
+#logo {
     color: #ffffff;
     font-size: 25px;
     font-weight: 600;
 }
 
-#social-link1{
+#social-link1 {
     align-items: center;
     vertical-align: middle;
     color: white;
@@ -52,24 +52,24 @@ header nav a {
     margin-left: 40px;
 }
 
-#social-link2{
+#social-link2 {
     align-items: center;
     vertical-align: middle;
     color: white;
     font-size: 30px;
 }
 
-#social-link1:hover{
+#social-link1:hover {
     color: #979797;
     transition: 0.5s ease-in;
 }
 
-#social-link2:hover{
+#social-link2:hover {
     color: #979797;
     transition: 0.5s ease-in;
 }
 
-.login{
+.login {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     color: #8e00cf;
@@ -78,8 +78,69 @@ header nav a {
     margin-left: 40px;
 }
 
-.login:hover{
+.login:hover {
     color: #979797;
     transition: 0.5s ease-in;
 }
 
+.container {
+    background-color: #8e00cf;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+#timer {
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+
+#botao-timer {
+    border-radius: 10px;
+    padding: 30px 60px 30px 60px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #383838;
+    cursor: pointer;
+    margin-bottom: 150px;
+    box-shadow: #4a006d 2px 2px 1px 1px;
+
+}
+
+#botao-timer:hover {
+    color: #ffffff;
+    background-color: #5f028a;
+    transition: 0.5s ease-in;
+
+}
+
+.tasks{
+    background-color: #8e00cf;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.tasks h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#digite-task{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
