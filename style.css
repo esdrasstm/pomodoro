@@ -151,7 +151,7 @@ header nav a {
     height: 40px;
 }
 
-.button-class{
+.button-task{
     border: none;
     border-radius: 5px;
     height: 40px;
@@ -159,7 +159,7 @@ header nav a {
     cursor: pointer;
 }
 
-.button-class:hover{
+.button-task:hover{
     color: #ffffff;
     background-color: #5f028a;
     transition: 0.5s ease-in;
@@ -178,9 +178,27 @@ header nav a {
     padding: 20px;
     display: flex;
     align-items: center;
+    font-weight: 600;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .task img{
     width: 20px;
+    opacity: 0;
+}
+
+.task:hover img{
+    opacity: 1;
+    transition: 1s ease-in;
+}
+
+.done{
+    background-color: #ffc400;
+    text-decoration: line-through;
+}
+
+
+@media screen {
+    
 }
