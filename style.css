@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 body {
@@ -127,22 +128,59 @@ header nav a {
     background-color: #8e00cf;
     margin-top: 30px;
     border-radius: 10px;
-    display: grid;
+    display: flexbox;
     place-items: center;
     text-align: center;
 }
+
 
 .tasks h1{
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
-#digite-task{
+.input-task{
     padding: 10px;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.button-class{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button-class:hover{
+    color: #ffffff;
+    background-color: #5f028a;
+    transition: 0.5s ease-in;
+}
+
+.list-task{
+    width: 100%;
+    list-style: none;
+    padding: 30px;
+}
+
+.task{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task img{
+    width: 20px;
 }
