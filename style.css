@@ -95,6 +95,31 @@ header nav a {
     text-align: center;
 }
 
+.textinho {
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: -60px;
+    font-size: 15px;
+}
+
+.textinho span {
+    color: #ffc400;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.creditos {
+    color: #ffffff;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+
+.creditos a {
+    color: #ffc400;
+    text-decoration: none;
+}
+
 #timer {
     font-size: 80px;
     font-weight: 600;
@@ -124,7 +149,7 @@ header nav a {
 
 }
 
-.tasks{
+.tasks {
     background-color: #8e00cf;
     margin-top: 30px;
     border-radius: 10px;
@@ -134,14 +159,14 @@ header nav a {
 }
 
 
-.tasks h1{
+.tasks h1 {
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
     padding-top: 30px;
 }
 
-.input-task{
+.input-task {
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -151,7 +176,7 @@ header nav a {
     height: 40px;
 }
 
-.button-task{
+.button-task {
     border: none;
     border-radius: 5px;
     height: 40px;
@@ -159,19 +184,19 @@ header nav a {
     cursor: pointer;
 }
 
-.button-task:hover{
+.button-task:hover {
     color: #ffffff;
     background-color: #5f028a;
     transition: 0.5s ease-in;
 }
 
-.list-task{
+.list-task {
     width: 100%;
     list-style: none;
     padding: 30px;
 }
 
-.task{
+.task {
     background-color: #d9d9d9;
     border-radius: 10px;
     margin: 10px;
@@ -183,22 +208,584 @@ header nav a {
     cursor: pointer;
 }
 
-.task img{
+.task img {
     width: 20px;
     opacity: 0;
 }
 
-.task:hover img{
+.task:hover img {
     opacity: 1;
     transition: 1s ease-in;
 }
 
-.done{
+.done {
     background-color: #ffc400;
     text-decoration: line-through;
 }
 
 
-@media screen {
-    
+@media only screen and (max-width: 768px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -60px;
+        font-size: 12px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: -10px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -60px;
+        font-size: 12px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: -18px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 25px;
+        margin-left: 5px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 25px;
+        margin-right: 5px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+        margin-left: 15px;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -60px;
+        font-size: 12px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 15px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 20px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 20px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 220px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -60px;
+        font-size: 12px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 368px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        padding-left: 18px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 16px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 16px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -60px;
+        font-size: 12px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        min-width: 45vh;
+    }
+
+    main {
+        padding: 0 20px 0 20px;
+    }
+
+    header {
+        padding: 20px;
+        width: 100%;
+    }
+
+    #logo {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+        padding-left: 11px;
+    }
+
+    #social-link1 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 15px;
+    }
+
+    #social-link2 {
+        align-items: center;
+        vertical-align: middle;
+        color: white;
+        font-size: 15px;
+    }
+
+    .login {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        color: #8e00cf;
+        font-family: "poppins";
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .tasks {
+        margin-bottom: 30px;
+    }
+
+    .list-task {
+        padding: 5px;
+    }
+
+    .input-task {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 170px;
+        height: 40px;
+    }
+
+    .button-task {
+        border: none;
+        border-radius: 5px;
+        height: 40px;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .textinho {
+        color: #ffffff;
+        margin-top: 50px;
+        margin-bottom: -90px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .textinho span {
+        color: #ffc400;
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .creditos {
+        color: #ffffff;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+
+    .creditos a {
+        color: #ffc400;
+        text-decoration: none;
+    }
 }
