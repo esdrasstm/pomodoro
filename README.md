@@ -12,7 +12,7 @@
 *JS
 
 ## Licença
-
+{: .center}
 Lançado em 2022. Este projeto está sob a ![Licença MIT](/LICENSE).
 
 ---
@@ -21,4 +21,4 @@ Lançado em 2022. Este projeto está sob a ![Licença MIT](/LICENSE).
 
 ---
 
-<center>Feito com ❤ por ![Esdras Tomé](https://github.com/esdrasstm)</center>
+Feito com ❤ por ![Esdras Tome](https://github.com/esdrasstm)
