@@ -4,7 +4,7 @@ const completList = document.querySelector('.list-task')
 
 const audio = new Audio('alarm.mp3')
 
-let minutes = 25;
+let minutes = 1;
 let seconds = 0;
 let timer;
 
@@ -16,7 +16,7 @@ function updateTimer(){
     if (seconds === 0) {
         if (minutes === 0) {
             clearInterval(timer);
-            alert("Pomodoro concluído")
+            document.getElementById("alarm-sound").play();
         } else {
             minutes--;
             seconds = 59;
@@ -30,6 +30,7 @@ function updateTimer(){
 
 function stopTimer(){
     clearInterval(timer);
+    audio
 }
 
 
