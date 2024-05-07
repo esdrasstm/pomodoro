@@ -1,15 +1,6 @@
-import { SpeedInsights } from '@vercel/speed-insights/next';
- 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <SpeedInsights />
-    </>
-  );
-}
- 
-export default MyApp;
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+injectSpeedInsights();
 
 const button = document.querySelector('.button-task')
 const input = document.querySelector('.input-task')
