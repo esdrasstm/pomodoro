@@ -4,7 +4,7 @@ const completList = document.querySelector('.list-task')
 
 const audio = new Audio('alarm.mp3')
 
-let minutes = 1;
+let minutes = 15;
 let seconds = 0;
 let timer;
 
