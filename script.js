@@ -2,10 +2,40 @@ const button = document.querySelector('.button-task')
 const input = document.querySelector('.input-task')
 const completList = document.querySelector('.list-task')
 
+const audio = new Audio('alarm.mp3')
+
+let minutes = 25;
+let seconds = 0;
+let timer;
+
+function startTimer(){
+    timer = setInterval(updateTimer, 1000);
+}
+
+function updateTimer(){
+    if (seconds === 0) {
+        if (minutes === 0) {
+            clearInterval(timer);
+            alert("Pomodoro concluído")
+        } else {
+            minutes--;
+            seconds = 59;
+        }
+    } else {
+        seconds--;
+    }
+    document.getElementById("minutes").textContent = minutes <10 ?"0" + minutes : minutes;
+    document.getElementById("seconds").textContent = seconds <10 ?"0" + seconds : seconds;
+}
+
+function stopTimer(){
+    clearInterval(timer);
+}
+
+
+
+
 let minhaListaDeItens = []
-
-
-
 function adicionarNovaTarefa() {
     if (input.value.trim()===''){
         alert("Por favor, insira uma tarefa antes de adicionar");

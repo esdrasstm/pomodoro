@@ -126,12 +126,16 @@ header nav a {
     color: #ffffff;
     padding-top: 20px;
     margin-top: 80px;
+    display: flex;
 }
 
+.botoes{
+    padding: 20px;
+}
 
 #botao-timer {
     border-radius: 10px;
-    padding: 30px 60px 30px 60px;
+    padding: 15px 30px 15px 30px;
     border: none;
     font-size: 30px;
     font-weight: 700;
@@ -143,6 +147,26 @@ header nav a {
 }
 
 #botao-timer:hover {
+    color: #ffffff;
+    background-color: #5f028a;
+    transition: 0.5s ease-in;
+
+}
+
+#botao-stop {
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: #383838;
+    cursor: pointer;
+    margin-bottom: 150px;
+    box-shadow: #4a006d 2px 2px 1px 1px;
+
+}
+
+#botao-stop:hover {
     color: #ffffff;
     background-color: #5f028a;
     transition: 0.5s ease-in;
@@ -210,12 +234,6 @@ header nav a {
 
 .task img {
     width: 20px;
-    opacity: 0;
-}
-
-.task:hover img {
-    opacity: 1;
-    transition: 1s ease-in;
 }
 
 .done {

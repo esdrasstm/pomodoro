@@ -34,8 +34,17 @@
 
         <div class="container">
             <p class="textinho">Elimine todas as distrações, aperte os cintos e <br><span>FOCO!</span></p>
-            <p id="timer">25:00</p>
-            <button id="botao-timer">INICIAR</button>
+            <div id="timer">
+            <p id="minutes">25</p>
+            <p>:</p>
+            <p id="seconds">00</p>
+            </div>
+            <div class="botoes">
+                <button id="botao-timer" onclick="startTimer();">INICIAR</button>
+                <button id="botao-stop" onclick="stopTimer();">PARAR</button>
+            </div>
+           
+            <!--<button id="botao-pause">INICIAR</button>-->
             <p class="creditos">Criado por <a href="https://github.com/esdrasstm" target="_blank">Esdras Tomé</a></p>
         </div>
 
