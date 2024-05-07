@@ -1,7 +1,3 @@
-import { injectSpeedInsights } from '@vercel/speed-insights';
-
-injectSpeedInsights();
-
 const button = document.querySelector('.button-task')
 const input = document.querySelector('.input-task')
 const completList = document.querySelector('.list-task')
