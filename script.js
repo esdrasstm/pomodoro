@@ -1,3 +1,5 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 const button = document.querySelector('.button-task')
 const input = document.querySelector('.input-task')
 const completList = document.querySelector('.list-task')
