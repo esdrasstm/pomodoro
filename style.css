@@ -37,6 +37,7 @@ header nav a {
 
 .logo img{
     width: 120px;
+    vertical-align: middle;
 }
 
 #social-link1{
