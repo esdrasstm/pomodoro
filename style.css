@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: none;
+    text-decoration: none;
 }
 
 body {
@@ -18,13 +20,11 @@ body {
 
 main {
     text-align: center;
+    width: 450px;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
+    padding: 15px;
     width: 100%;
     max-width: 1200px;
     background-color: #8e00cf;
@@ -32,29 +32,21 @@ header {
 }
 
 header nav a {
-    text-decoration: none;
     padding: 10px;
-    justify-content: center;
-    width: 30px;
-
 }
 
-#logo {
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: 600;
+.logo img{
+    width: 120px;
 }
 
-#social-link1 {
-    align-items: center;
+#social-link1{
     vertical-align: middle;
     color: white;
     font-size: 30px;
-    margin-left: 40px;
+    margin-left: 130px;
 }
 
 #social-link2 {
-    align-items: center;
     vertical-align: middle;
     color: white;
     font-size: 30px;
@@ -68,22 +60,6 @@ header nav a {
 #social-link2:hover {
     color: #5f028a;
     transition: 0.5s ease-in;
-}
-
-.login {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
-    color: #8e00cf;
-    font-family: "poppins";
-    font-weight: 700;
-    margin-left: 40px;
-}
-
-.login:hover {
-    color: #ffffff;
-    background-color: #5f028a;
-    transition: 0.5s ease-in;
-
 }
 
 .container {
@@ -118,7 +94,6 @@ header nav a {
 
 .creditos a {
     color: #ffc400;
-    text-decoration: none;
 }
 
 .versao {
@@ -131,7 +106,6 @@ header nav a {
 
 .versao a {
     color: #ffc400;
-    text-decoration: none;
 }
 
 #timer {
@@ -152,18 +126,16 @@ header nav a {
     padding: 15px 30px 15px 30px;
     border: none;
     font-size: 30px;
-    font-weight: 700;
-    color: #383838;
+    font-weight: bolder;
+    color: #5a5a5a;
     cursor: pointer;
     margin-bottom: 150px;
-    box-shadow: #4a006d 2px 2px 1px 1px;
-
 }
 
 #botao-timer:hover {
     color: #ffffff;
     background-color: #5f028a;
-    transition: 0.5s ease-in;
+    transition: 0.4s ease-in;
 
 }
 
@@ -172,18 +144,16 @@ header nav a {
     padding: 15px 30px 15px 30px;
     border: none;
     font-size: 30px;
-    font-weight: 700;
-    color: #383838;
+    font-weight: bolder;
+    color: #5a5a5a;
     cursor: pointer;
     margin-bottom: 150px;
-    box-shadow: #4a006d 2px 2px 1px 1px;
-
 }
 
 #botao-stop:hover {
     color: #ffffff;
     background-color: #5f028a;
-    transition: 0.5s ease-in;
+    transition: 0.4s ease-in;
 
 }
 
@@ -191,7 +161,6 @@ header nav a {
     background-color: #8e00cf;
     margin-top: 30px;
     border-radius: 10px;
-    display: flexbox;
     place-items: center;
     text-align: center;
 }
@@ -244,6 +213,7 @@ header nav a {
     font-weight: 600;
     justify-content: space-between;
     cursor: pointer;
+    max-width: 400px;
 }
 
 .task img {
@@ -270,11 +240,8 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 25px;
-        font-weight: 600;
-        padding-left: 45px;
+    .logo {
+        
     }
 
     #social-link1 {
@@ -293,14 +260,6 @@ header nav a {
         margin-right: 5px;
     }
 
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        margin-left: 15px;
-    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -317,11 +276,8 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 25px;
-        font-weight: 600;
-        margin-left: -10px;
+    .logo {
+        
     }
 
     #social-link1 {
@@ -338,15 +294,6 @@ header nav a {
         color: white;
         font-size: 30px;
         margin-right: 5px;
-    }
-
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        margin-left: 15px;
     }
 
     .tasks {
@@ -406,36 +353,12 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 25px;
-        font-weight: 600;
-        margin-left: -10px;
-    }
-
     #social-link1 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 30px;
-        margin-left: 5px;
+        font-size: 25px;
     }
 
     #social-link2 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 30px;
-        margin-right: 5px;
-    }
-
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        margin-left: 15px;
+        font-size: 25px;
     }
 
     .tasks {
@@ -443,46 +366,29 @@ header nav a {
     }
 
     .input-task {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-bottom: 10px;
         width: 250px;
         height: 40px;
     }
 
     .button-task {
-        border: none;
-        border-radius: 5px;
-        height: 40px;
         padding: 10px;
-        cursor: pointer;
     }
 
     .textinho {
-        color: #ffffff;
         margin-top: 50px;
         margin-bottom: -60px;
         font-size: 12px;
     }
 
     .textinho span {
-        color: #ffc400;
         font-weight: 800;
         font-size: 35px;
     }
 
     .creditos {
-        color: #ffffff;
         font-size: 11px;
         margin-bottom: 10px;
         margin-top: -40px;
-    }
-
-    .creditos a {
-        color: #ffc400;
-        text-decoration: none;
     }
 }
 
@@ -500,36 +406,12 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: -18px;
-    }
-
     #social-link1 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
         font-size: 25px;
-        margin-left: 5px;
     }
 
     #social-link2 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
         font-size: 25px;
-        margin-right: 5px;
-    }
-
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        margin-left: 15px;
     }
 
     .tasks {
@@ -537,11 +419,6 @@ header nav a {
     }
 
     .input-task {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-bottom: 10px;
         width: 250px;
         height: 40px;
     }
@@ -555,7 +432,6 @@ header nav a {
     }
 
     .textinho {
-        color: #ffffff;
         margin-top: 50px;
         margin-bottom: -60px;
         font-size: 12px;
@@ -585,35 +461,22 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 600;
-        padding-left: 42px;
-    }
-
     #social-link1 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #social-link2 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #botao-timer {
         padding: 10px 15px 10px 15px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #botao-stop {
         padding: 10px 15px 10px 15px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .task {
@@ -643,15 +506,12 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: 600;
-        padding-left: 40px;
+    #social-link1 {
+        font-size: 25px;
     }
 
-    .login {
-        font-size: 12px;
+    #social-link2 {
+        font-size: 25px;
     }
 
     .textinho {
@@ -674,39 +534,31 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        font-size: 15px;
-        font-weight: 600;
-        padding-left: 45px;
-    }
-
     #social-link1 {
-        color: white;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     #social-link2 {
-        color: white;
-        font-size: 15px;
-    }
-
-    .login {
-        font-weight: 700;
-        font-size: 12px;
+        font-size: 25px;
     }
 
     #botao-timer {
         padding: 10px 15px 10px 15px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #botao-stop {
         padding: 10px 15px 10px 15px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .tasks {
         margin-bottom: 30px;
+    }
+
+    .input-task {
+        width: 190px;
+        height: 40px;
     }
 
     .list-task {
@@ -714,7 +566,6 @@ header nav a {
     }
 
     .textinho {
-        color: #ffffff;
         margin-top: 50px;
         margin-bottom: -90px;
         font-size: 15px;
@@ -722,8 +573,6 @@ header nav a {
     }
 
     .textinho span {
-        color: #ffc400;
-        font-weight: 800;
         font-size: 35px;
     }
 }
@@ -742,44 +591,22 @@ header nav a {
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 15px;
-        font-weight: 600;
-        padding-left: 30px;
-    }
-
     #social-link1 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     #social-link2 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 15px;
-    }
-
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        font-size: 12px;
+        font-size: 25px;
     }
 
     #botao-timer {
         padding: 10px 15px 10px 15px;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #botao-stop {
         padding: 10px 15px 10px 15px;
-        font-size: 20px;
+        font-size:25px;
     }
 
     .tasks {
@@ -791,25 +618,15 @@ header nav a {
     }
 
     .input-task {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-bottom: 10px;
         width: 170px;
         height: 40px;
     }
 
     .button-task {
-        border: none;
-        border-radius: 5px;
-        height: 40px;
         padding: 10px;
-        cursor: pointer;
     }
 
     .textinho {
-        color: #ffffff;
         margin-top: 50px;
         margin-bottom: -90px;
         font-size: 15px;
@@ -817,8 +634,6 @@ header nav a {
     }
 
     .textinho span {
-        color: #ffc400;
-        font-weight: 800;
         font-size: 35px;
     }
 
@@ -845,52 +660,31 @@ header nav a {
     }
 
     main {
-        padding: 0 20px 0 20px;
+        padding: 0 5px 0 5px;
     }
 
     header {
-        padding: 20px;
+        padding: 30px;
         width: 100%;
     }
 
-    #logo {
-        color: #ffffff;
-        font-size: 15px;
-        font-weight: 600;
-        padding-left: 45px;
-    }
-
     #social-link1 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 15px;
+        font-size: 25px;
     }
 
     #social-link2 {
-        align-items: center;
-        vertical-align: middle;
-        color: white;
-        font-size: 15px;
-    }
 
-    .login {
-        background-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        color: #8e00cf;
-        font-family: "poppins";
-        font-weight: 700;
-        font-size: 12px;
+        font-size: 25px;
     }
 
     #botao-timer {
         padding: 10px 15px 10px 15px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #botao-stop {
         padding: 10px 15px 10px 15px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .tasks {
@@ -902,25 +696,15 @@ header nav a {
     }
 
     .input-task {
-        padding: 10px;
-        border: none;
-        border-radius: 5px;
-        margin-top: 20px;
-        margin-bottom: 10px;
         width: 170px;
         height: 40px;
     }
 
     .button-task {
-        border: none;
-        border-radius: 5px;
-        height: 40px;
         padding: 10px;
-        cursor: pointer;
     }
 
     .textinho {
-        color: #ffffff;
         margin-top: 50px;
         margin-bottom: -90px;
         font-size: 15px;
@@ -928,8 +712,6 @@ header nav a {
     }
 
     .textinho span {
-        color: #ffc400;
-        font-weight: 800;
         font-size: 35px;
     }
 
