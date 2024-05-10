@@ -35,7 +35,7 @@
 Lançado em 2022. Este projeto está sob a [Licença MIT](https://github.com/esdrasstm/pomodoro/blob/main/LICENSE).
 
 ---
-Versão 1.0.0 | © 2024 [Esdras Tomé](https://github.com/esdrasstm)
+Versão 1.0.1 | © 2024 [Esdras Tomé](https://github.com/esdrasstm)
 
 ---
 Feito com ❤ por Esdras Tome
