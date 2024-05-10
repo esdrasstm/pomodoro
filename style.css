@@ -190,6 +190,7 @@ header nav a {
     height: 40px;
     padding: 10px;
     cursor: pointer;
+    color: #5f028a;
 }
 
 .button-task:hover {
