@@ -2,7 +2,10 @@ const button = document.querySelector('.button-task')
 const input = document.querySelector('.input-task')
 const completList = document.querySelector('.list-task')
 
+const somClick = new Audio('click.mp3');
+
 const audio = new Audio('alarm.mp3')
+
 
 let minutes = 25;
 let seconds = 0;
@@ -10,6 +13,8 @@ let timer;
 
 function startTimer(){
     timer = setInterval(updateTimer, 1000);
+    document.getElementById("click-sound").play();
+        somClick
 }
 
 function updateTimer(){
@@ -31,9 +36,23 @@ function updateTimer(){
 function stopTimer(){
     clearInterval(timer);
     audio
+    document.getElementById("click-sound").play();
+        somClick
 }
 
 
+/**
+    document.getElementById('botao-reset').addEventListener('click', function(){
+        resetTimer();
+        minutes = 25;
+        seconds = 0;
+        document.getElementById('timer').textContent = formatTime(minutes && seconds);
+    })
+
+    function resetTimer(){
+
+    }
+    **/
 
 
 let minhaListaDeItens = []

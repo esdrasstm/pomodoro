@@ -63,6 +63,13 @@ header nav a {
     transition: 0.5s ease-in;
 }
 
+.darkmode{
+    color: #310047;
+    font-size: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
 .container {
     background-color: #8e00cf;
     margin-top: 30px;
@@ -152,6 +159,24 @@ header nav a {
 }
 
 #botao-stop:hover {
+    color: #ffffff;
+    background-color: #5f028a;
+    transition: 0.4s ease-in;
+
+}
+
+#botao-reset {
+    border-radius: 10px;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #5a5a5a;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+#botao-reset:hover {
     color: #ffffff;
     background-color: #5f028a;
     transition: 0.4s ease-in;
